@@ -73,7 +73,7 @@ def build_knowledge_base():
         openai_api_key=openai_api_key,
         model="text-embedding-ada-002"
     )
-    chroma_client = chromadb.EphemeralClient()
+    chroma_client = chromadb.Client()
     vectorstore = Chroma.from_texts(
         chunks,
         embeddings,
