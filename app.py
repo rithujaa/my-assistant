@@ -268,8 +268,6 @@ st.markdown("""
 st.markdown('<p class="section-label">💡 Suggested Questions</p>', unsafe_allow_html=True)
 
 suggestions = [
-    "💼 What is her work experience?",
-    "🚀 Tell me about the AI BI Assistant project",
     "🛠️ What tools and skills does she have?",
     "🎓 What is her educational background?",
     "❄️ What is her experience with Snowflake?",
