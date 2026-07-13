@@ -1,0 +1,76 @@
+RITHUJAA RAJENDRAKUMAR - PERSONAL BACKGROUND
+=============================================
+
+BASIC INFORMATION
+Full Name: Rithujaa Rajendrakumar
+Phone: +1 201-204-6526
+Email: rithujaa128@gmail.com
+LinkedIn: https://www.linkedin.com/in/rithujaa/
+GitHub: https://github.com/rithujaa
+Portfolio: https://rithujaa.github.io/rithujaa-portfolio/
+
+ORIGIN AND BACKGROUND
+- Originally from Sri Lanka
+- Started university in India (computer engineering) before transferring to Canada
+- Moved to Canada for undergrad at UBC in Kelowna, BC
+- Moved to New York City for master's at NYU
+- Has lived in Sri Lanka, India, Canada, and the United States
+- Describes her journey as "a world tour just to end up in data analytics"
+
+CAREER STORY
+Math and computers were always Rithujaa's strengths growing up. When she discovered data science, she immediately knew it was the perfect combination of both. She switched from computer engineering in India to data science at UBC in Canada as soon as she found out data science existed as a field.
+
+She got into NYU's Center for Data Science with a full scholarship (100% CDS Pathbreaker Scholarship) which she describes as "a dream honestly."
+
+PERSONALITY AND WORK STYLE
+- Naturally curious - questions assumptions
+- Self-starter - builds things without being asked (built AI BI Assistant just to learn)
+- Fast learner - comfortable picking up new tools quickly
+- Collaborative - works well across teams
+- Detail-oriented - cares about accuracy
+- Proactive - doesn't wait to be told what to do
+- Comfortable with ambiguity
+- Not a "wait to be assigned" type - identifies problems and goes after them
+
+AI INTEREST STORY
+Rithujaa got hooked on AI during her Trilemma internship where she used GPT-4o and FinBERT for financial sentiment analysis. Around the same time, a close friend of hers who works as a forward deployed engineer described her work - using AI to build automated workflows, create products, build voice chatbots, generate content like reels and shorts. Hearing about that completely changed how Rithujaa thought about what AI could do. Since then she has been going deeper - agents, RAG pipelines, LLM APIs. She describes it as "the more I build with AI, the more fun it gets."
+
+She is currently learning n8n (workflow automation tool for building agentic pipelines) and is actively building AI projects.
+
+PERSONAL INTERESTS
+- Foodie - loved exploring all the different restaurants in New York City
+- Travel - loves traveling, has lived in 4 countries
+- Hiking - tries to get outdoors as much as possible
+- FC Barcelona supporter (passionate fan)
+- Fan of Thalapathy Vijay (Tamil cinema)
+- Interested in Tamil Nadu politics (TVK/DMK)
+- Basic Korean language knowledge
+
+UPCOMING LIFE EVENTS
+- Planning a wedding in Tamil Nadu with three events: beach/temple wedding, sangeet, and hotel reception for approximately 100-200 guests
+- Recently moved to Raleigh, NC area (ZIP 27607)
+- Recently leased a 2026 Genesis G70 3.3T Sport Prestige AWD
+
+LOCATION
+Currently based in the Raleigh, NC area. Previously in New York City for NYU. Open to relocating for the right opportunity - has no location constraints.
+
+WHAT SHE IS LOOKING FOR IN A ROLE
+- A place where data/AI work has real business impact
+- Environment where she can grow fast and learn from experienced people
+- Collaborative, accessible culture (not overly hierarchical)
+- Roles at the intersection of data engineering and AI/ML
+- Company that values employee growth
+- Ideally H-1B sponsorship for long-term stability (though not required for 3 years on OPT)
+
+SALARY EXPECTATIONS
+- Target range: $90K - $110K for data engineering/data science roles
+- Flexible depending on company, location, and total package
+
+VISA STATUS
+- F-1 OPT
+- EAD expected August 2026
+- Authorized to work in US for up to 3 years without employer sponsorship
+- Would need H-1B sponsorship after OPT period
+- PTAG (current offer): does not sponsor H-1B but is E-Verify registered (to be confirmed)
+- Plans to return to Sri Lanka after approximately 3 years
+- When asked about sponsorship in interviews: "I'm on F-1 OPT, fully authorized to work for the next 3 years without any sponsorship needed"

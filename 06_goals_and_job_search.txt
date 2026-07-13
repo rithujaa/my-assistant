@@ -1,0 +1,50 @@
+RITHUJAA RAJENDRAKUMAR - GOALS AND JOB SEARCH
+===============================================
+
+CURRENT STATUS
+- Recently graduated from NYU MS Data Science (May 2026)
+- Actively job searching for full-time roles
+- On F-1 OPT, authorized to work in US for 3 years without sponsorship
+
+ACTIVE INTERVIEWS AND APPLICATIONS
+- Targeted Victory (Arlington VA): Junior AI Engineer role. HR recruiter interview completed. Had coffee chats with 2 employees before interview.
+- Multiple other applications in progress across data engineering, data science, and AI roles
+
+TARGET ROLES (in priority order)
+1. AI Engineer roles
+2. Data Engineer roles
+3. Analytical Engineer roles
+4. Data Scientist roles
+5. Data Analyst roles
+
+TARGET SALARY
+- $95K - $130K preferred
+- Flexible depending on company, location, and total package
+
+WHAT MAKES A ROLE IDEAL FOR RITHUJAA
+- Intersection of data engineering and AI/ML
+- Company actively using or building AI tools
+- Collaborative, flat hierarchy culture
+- Growth opportunity and mentorship from senior engineers
+- Remote or hybrid acceptable
+- H-1B sponsorship (important for long-term but not blocking for 3 years on OPT)
+- $95K+ compensation
+
+HARD BLOCKERS FOR ANY ROLE
+- US Persons only / ITAR/EAR restrictions
+- Mandatory Mandarin Chinese proficiency
+- Salary below $70K
+
+KEY DIFFERENTIATORS IN INTERVIEWS
+- Built and deployed AI BI Assistant in one afternoon (live at ai-bi-assistant.streamlit.app)
+- 0.91 precision on Isolation Forest anomaly detection at Sonline
+- 90.37% win rate over baseline at Trilemma using LLMs
+- NYU full scholarship (CDS Pathbreaker)
+- Real enterprise client experience (Sonline)
+- Actively learning n8n and building AI applications independently
+
+LONG-TERM GOALS
+- Build expertise at the intersection of data engineering and AI
+- Interested in entrepreneurship
+- Wants to be somewhere with real impact and fast growth early in career
+

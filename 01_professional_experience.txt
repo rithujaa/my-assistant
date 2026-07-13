@@ -1,0 +1,118 @@
+RITHUJAA RAJENDRAKUMAR - PROFESSIONAL EXPERIENCE
+=================================================
+
+WORK EXPERIENCE OVERVIEW
+Rithujaa has approximately 1.5 years of professional experience across data engineering, data science, and analytics. She has worked in two professional roles: Analytical Engineer at Sonline LLC and Data Science Intern at Trilemma Foundation.
+
+---
+
+ROLE 1: ANALYTICAL ENGINEER
+Company: Sonline LLC
+Duration: May 2023 to August 2024 (approximately 15 months)
+Type: Full-time, Remote
+
+What Sonline Does:
+Sonline LLC is a data and analytics consultancy that serves enterprise clients across multiple industries. Rithujaa worked directly with enterprise clients, building data pipelines, dashboards, and analytical tools.
+
+What Rithujaa Did:
+Rithujaa worked as an Analytical Engineer supporting 3+ enterprise clients simultaneously. Her work covered the full spectrum from raw data ingestion to client-facing dashboards and reports.
+
+Data Engineering Work:
+- Built and maintained ETL pipelines using Python and AWS (S3, Glue, Lambda, EC2) to ingest, transform, and deliver operational data from multiple sources
+- Used Snowflake as the primary data warehouse, writing advanced SQL including CTEs, window functions, stored procedures, and joins
+- Worked with Power BI to build dashboards and reporting solutions for enterprise clients
+- Used AWS Glue for data transformation and orchestration
+- Reduced reporting turnaround from days to hours by automating manual data processing workflows
+
+Machine Learning and Statistical Modeling:
+- Applied Isolation Forest anomaly detection to wind turbine vibration sensor time-series data for an energy sector client
+- Applied survival analysis to the same wind turbine dataset to model equipment degradation and predict lifespan
+- Achieved 0.91 precision in identifying early-stage mechanical degradation signals
+- This work enabled the client's maintenance teams to shift from reactive to proactive maintenance operations, significantly reducing operational costs
+
+Tools and Technologies Used Professionally at Sonline:
+- Python (Pandas, NumPy, Scikit-learn)
+- SQL (advanced - CTEs, window functions, stored procedures, joins, query optimization)
+- AWS (S3, Glue, Lambda, EC2)
+- Snowflake
+- Power BI
+- Microsoft Excel
+- Isolation Forest (anomaly detection)
+- Survival Analysis
+
+Key Accomplishments:
+- Reduced client reporting turnaround from days to hours through automation
+- Achieved 0.91 precision on anomaly detection model for wind turbine sensor data
+- Successfully managed 3+ enterprise clients simultaneously
+- Built Power BI dashboards that clients used daily for operational decision-making
+- Collaborated across engineering and analytics teams to deliver end-to-end solutions
+
+Domain Experience:
+- Energy sector (wind turbine operations and maintenance)
+- Enterprise operations and analytics
+
+What Rithujaa Learned:
+- How to work with real enterprise clients and manage their expectations
+- How to translate business problems into analytical solutions
+- How to communicate technical findings to non-technical stakeholders
+- Production-grade data pipeline development
+- The importance of data quality and reliability in real business environments
+
+---
+
+ROLE 2: DATA SCIENCE INTERN
+Company: Trilemma Foundation
+Duration: September 2025 to December 2025 (4 months)
+Type: Internship, Remote
+
+What Trilemma Foundation Does:
+Trilemma Foundation is a financial research organization focused on developing data-driven investment strategies using alternative data sources, machine learning, and AI.
+
+What Rithujaa Did:
+Rithujaa worked as a Data Science Intern building a sophisticated financial strategy pipeline that combined traditional ML with large language models (LLMs) and NLP.
+
+ML and AI Work:
+- Built a 6-agent ensemble ML strategy that combined multiple signal types
+- Used LLMs including GPT-4o, FinBERT, RoBERTa, and VADER to automate sentiment analysis on financial text
+- FinBERT and RoBERTa are NLP models specifically trained on financial language
+- VADER is a sentiment analysis tool for general text
+- GPT-4o was used for more complex analytical automation
+- Engineered 369 features across three categories: on-chain crypto metrics, macroeconomic indicators, and NLP sentiment signals
+- Validated the strategy across 3,075 rolling 12-month backtesting windows
+- Achieved a 90.37% win rate over the baseline strategy
+- Applied statistical significance testing across all backtesting windows
+
+Data Pipeline Work:
+- Built scalable Python data pipelines to process financial data from multiple sources
+- Automated data collection, transformation, and feature engineering workflows
+- Built an interactive Streamlit dashboard to monitor strategy performance KPIs in real time
+
+Tools and Technologies Used at Trilemma:
+- Python (Pandas, NumPy, Scikit-learn)
+- GPT-4o (OpenAI API)
+- FinBERT (financial NLP model)
+- RoBERTa (NLP model)
+- VADER (sentiment analysis)
+- Streamlit (dashboard)
+- Statistical significance testing
+- Ensemble ML methods
+
+Key Accomplishments:
+- 90.37% win rate over baseline across 3,075 backtesting windows
+- 369 engineered features across multiple data types
+- Built automated LLM-powered financial analysis pipeline
+- Live Streamlit dashboard for real-time monitoring
+
+What Rithujaa Learned:
+- How to apply LLMs to real analytical problems (not just tutorials)
+- Financial data analysis and the nuances of financial NLP
+- How to build production-ready pipelines with LLMs integrated
+- This is where Rithujaa got "hooked" on the AI side of data science
+- The difference between general NLP models and domain-specific ones like FinBERT
+
+---
+
+CAREER TRAJECTORY NOTE:
+Rithujaa started in traditional data engineering and analytics (Sonline) and progressively moved toward AI and LLM-powered workflows (Trilemma). Since graduating in May 2026 she has continued building AI projects independently, most notably the AI Business Intelligence Assistant (deployed at ai-bi-assistant.streamlit.app), which she built in one afternoon using GPT-4o, LangChain, ChromaDB, and RAG.
+
+She is currently on F-1 OPT, authorized to work in the US for 3 years without sponsorship needed from the employer. Her EAD is expected in August 2026.

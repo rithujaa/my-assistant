@@ -1,0 +1,82 @@
+RITHUJAA RAJENDRAKUMAR - SKILLS AND TOOLS
+==========================================
+
+PROGRAMMING LANGUAGES
+- Python: Strong. Primary language. Used daily. Pandas, NumPy, Scikit-learn, PySpark, automation scripting.
+- SQL: Strong. Advanced level. CTEs, window functions, stored procedures, complex joins, query optimization, dimensional modeling.
+- R: Familiar. Used in academic coursework and some analytical work.
+- Git: Used for version control across all projects.
+
+DATA ENGINEERING TOOLS
+- AWS S3: Used professionally at Sonline and in multiple projects. Object storage, staging area for pipelines.
+- AWS Glue: Used professionally at Sonline for data transformation and ETL.
+- AWS Lambda: Familiar from projects.
+- AWS EC2: Used in CDC pipeline for hosting NiFi.
+- Azure Data Factory: Used in E-Commerce pipeline for orchestration.
+- Azure Databricks: Used in E-Commerce pipeline for PySpark processing.
+- Azure Synapse Analytics: Used in E-Commerce pipeline as consumption layer.
+- Azure Data Lake Storage Gen2: Used in E-Commerce pipeline.
+- Snowflake: Used professionally at Sonline and in CDC pipeline. Snowpipe, Streams, Tasks, CDC, SCD1/SCD2.
+- Apache Airflow: Used in Airflow pipeline project. DAG-based orchestration.
+- Apache NiFi: Used in CDC pipeline for real-time streaming.
+- Apache Kafka: Used in Kafka pipeline project for streaming.
+- Apache Spark / PySpark: Used in E-Commerce pipeline via Databricks.
+- Delta Lake: Used in E-Commerce pipeline. Bronze/Silver/Gold Medallion Architecture.
+- Docker: Used in CDC pipeline and Airflow pipeline for containerization.
+- DuckDB: Used in DataBridge project as analytical database.
+- PostgreSQL: Used in Airflow pipeline as source database.
+
+MACHINE LEARNING AND DATA SCIENCE
+- XGBoost: Used in Airbnb ML project. AUC=0.939 on occupancy classification.
+- CatBoost: Used in Airbnb ML project as benchmarked model.
+- Random Forest: Used in Airbnb ML project as benchmarked model.
+- Logistic Regression: Used in Airbnb ML project as baseline.
+- Linear Regression: Used in Airbnb ML project for revenue prediction.
+- Isolation Forest: Used professionally at Sonline for anomaly detection on wind turbine sensor data. 0.91 precision.
+- Survival Analysis: Used professionally at Sonline for equipment degradation modeling.
+- K-Means Clustering: Used in NBA Player Similarity App.
+- HDBSCAN: Used in DataBridge for density-based clustering of violation categories.
+- Feature Engineering: Extensive experience. 83 features for Airbnb, 369 features for Trilemma.
+- Statistical Analysis: Hypothesis testing, statistical significance testing, backtesting.
+
+NLP AND AI
+- VADER: Sentiment analysis tool. Used in Airbnb ML project on listing text.
+- Sentence Transformers (all-MiniLM-L6-v2): Used in DataBridge for semantic embeddings.
+- FinBERT: Financial domain NLP model. Used at Trilemma for sentiment on financial text.
+- RoBERTa: General NLP model. Used at Trilemma.
+- GPT-4o (OpenAI API): Used in DataBridge for taxonomy labeling. Used in AI BI Assistant as core LLM. Used at Trilemma for automated analysis.
+- Anthropic API (Claude): Familiar. Has used in some workflows.
+- LangChain: Used in AI BI Assistant for RAG pipeline, text splitting.
+- ChromaDB: Used in AI BI Assistant as vector database (EphemeralClient).
+- OpenAI Embeddings (text-embedding-ada-002): Used in AI BI Assistant for PDF chunk embeddings.
+- RAG (Retrieval Augmented Generation): Implemented in AI BI Assistant for PDF question answering.
+- Prompt Engineering: Used extensively across all LLM projects.
+
+BUSINESS INTELLIGENCE AND VISUALIZATION
+- Power BI: Used professionally at Sonline for enterprise client dashboards. Strong.
+- Tableau: Used in Amazon Stock Dashboard project. Strong.
+- Streamlit: Used at Trilemma for KPI dashboard. Used in AI BI Assistant. Used in NBA app.
+- Microsoft Excel: PivotTables, advanced formulas, Power Query.
+- Plotly Express: Used in AI BI Assistant for automatic chart generation.
+
+DATA QUALITY AND GOVERNANCE
+- Data validation frameworks: Precision, recall, reconciliation scripts.
+- Documentation: Pipeline architecture docs, data lineage, transformation logic.
+- SCD1/SCD2 modeling: Implemented in CDC pipeline.
+- Dimensional modeling: Star schema design in DataBridge and CDC pipeline.
+
+PROFICIENCY SELF-ASSESSMENT
+- Python: Strong (uses daily, comfortable with complex tasks)
+- SQL: Strong (advanced queries, stored procedures, optimization)
+- Power BI: Strong (built production dashboards for enterprise clients)
+- Tableau: Strong (built live deployed dashboard, comfortable with all key features)
+- Snowflake: Strong (professional use at Sonline + deep project use including CDC, Streams, Tasks)
+- Machine Learning: Strong (production use at Sonline with 0.91 precision on anomaly detection, XGBoost AUC=0.939 on Airbnb project, 9 models benchmarked, survival analysis)
+- LLMs/GPT-4o: Strong (actively building production applications with them)
+- Azure: Intermediate-Strong (real project use — ADF, Databricks, Synapse, Delta Lake)
+- AWS: Intermediate-Strong (professional use at Sonline + multiple projects — S3, Glue, EC2, Lambda)
+- OOP Python: Intermediate (uses Python well, primarily procedural/functional style)
+- PySpark: Intermediate (used in E-Commerce pipeline via Databricks)
+- Apache Airflow: Intermediate (built full orchestration pipeline)
+- dbt: Basic familiarity (limited direct exposure)
+- Looker: Not currently in stack
