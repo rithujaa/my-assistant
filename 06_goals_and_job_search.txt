@@ -2,49 +2,80 @@ RITHUJAA RAJENDRAKUMAR - GOALS AND JOB SEARCH
 ===============================================
 
 CURRENT STATUS
-- Recently graduated from NYU MS Data Science (May 2026)
-- Actively job searching for full-time roles
-- On F-1 OPT, authorized to work in US for 3 years without sponsorship
+- Recently graduated from NYU MS Data Science in May 2026 (degree conferred May 14, 2026)
+- Actively searching for full-time roles in data engineering, data science, analytics, and AI
+- On F-1 OPT, authorized to work in the US for up to 3 years without employer sponsorship
+- Continuously building AI projects independently while job searching
 
-ACTIVE INTERVIEWS AND APPLICATIONS
-- Targeted Victory (Arlington VA): Junior AI Engineer role. HR recruiter interview completed. Had coffee chats with 2 employees before interview.
-- Multiple other applications in progress across data engineering, data science, and AI roles
+WHAT RITHUJAA IS LOOKING FOR
+Target role types (in order of preference):
+1. AI Engineer / Junior AI Engineer roles — building and deploying AI systems, LLM applications, agentic workflows
+2. Data Engineer roles — designing and building data pipelines, ETL, data infrastructure
+3. Data Scientist roles — ML modeling, statistical analysis, predictive analytics
+4. Data Analyst roles — SQL, dashboards, business insights
 
-TARGET ROLES (in priority order)
-1. AI Engineer roles
-2. Data Engineer roles
-3. Analytical Engineer roles
-4. Data Scientist roles
-5. Data Analyst roles
-
-TARGET SALARY
-- $95K - $130K preferred
-- Flexible depending on company, location, and total package
-
-WHAT MAKES A ROLE IDEAL FOR RITHUJAA
-- Intersection of data engineering and AI/ML
-- Company actively using or building AI tools
-- Collaborative, flat hierarchy culture
-- Growth opportunity and mentorship from senior engineers
-- Remote or hybrid acceptable
-- H-1B sponsorship (important for long-term but not blocking for 3 years on OPT)
+Ideal company characteristics:
+- Uses or is building AI tools and systems — not just talking about AI, actually doing it
+- Has real data problems to solve, not just checkbox analytics
+- Collaborative, flat hierarchy where junior employees can contribute meaningfully from day one
+- Good mentorship and growth opportunity from experienced engineers
+- Values data quality and engineering rigor
+- Remote, hybrid, or in-person — all acceptable
+- H-1B sponsorship (important for long-term stability beyond OPT)
 - $95K+ compensation
 
-HARD BLOCKERS FOR ANY ROLE
-- US Persons only / ITAR/EAR restrictions
+Hard blockers (will not apply):
+- US Persons only / ITAR/EAR restrictions (immigration requirement)
 - Mandatory Mandarin Chinese proficiency
 - Salary below $70K
 
-KEY DIFFERENTIATORS IN INTERVIEWS
-- Built and deployed AI BI Assistant in one afternoon (live at ai-bi-assistant.streamlit.app)
-- 0.91 precision on Isolation Forest anomaly detection at Sonline
-- 90.37% win rate over baseline at Trilemma using LLMs
-- NYU full scholarship (CDS Pathbreaker)
-- Real enterprise client experience (Sonline)
-- Actively learning n8n and building AI applications independently
+TARGET SALARY
+- Preferred: $95K - $130K
+- Flexible depending on company, location, role scope, and total package
+- Willing to discuss based on overall offer value
 
-LONG-TERM GOALS
-- Build expertise at the intersection of data engineering and AI
-- Interested in entrepreneurship
-- Wants to be somewhere with real impact and fast growth early in career
+KEY DIFFERENTIATORS — WHY RITHUJAA STANDS OUT
+- Built and deployed the AI BI Assistant in one afternoon — live at https://ai-bi-assistant.streamlit.app, GitHub: https://github.com/rithujaa/ai-bi-assistant
+- Built and deployed a Personal AI Profile Chatbot using RAG — live at https://rithujaa-ai-assistant.streamlit.app, GitHub: https://github.com/rithujaa/my-assistant
+- 0.91 precision on Isolation Forest anomaly detection at Sonline — used professionally in production
+- 90.37% win rate over baseline at Trilemma using a 6-agent ensemble with LLMs
+- NYU full scholarship (100% CDS Pathbreaker Scholarship) — competitive, merit-based
+- Real enterprise client experience at Sonline — managed 3+ clients simultaneously
+- Deep Snowflake experience (Snowpipe, Streams, Tasks, CDC, SCD1/SCD2)
+- Actively learning n8n and exploring agentic AI workflows
+- Has built with both OpenAI API (GPT-4o, GPT-4o-mini, embeddings) and understands Anthropic (Claude) APIs
+- Multiple deployed projects with live URLs demonstrating shipping real things
 
+COMPANIES WITH STRONG H-1B SPONSORSHIP (HIGHEST PRIORITY)
+- Kiss Nail Products (Port Washington NY): Explicitly offers H-1B + Green Card 100% company-paid
+- MISO (Carmel IN): Confirmed H-1B sponsor, 98/100 LCA approval rate, energy grid operator
+- LTIMindtree: Large Indian IT consulting firm, active H-1B sponsor (L&T Group)
+- Goldman Sachs: Fortune 500, active H-1B sponsor
+- Abbott: Fortune 500, active H-1B sponsor
+- NBCUniversal: Fortune 500, active H-1B sponsor
+- Chewy: Fortune 500, active H-1B sponsor
+- Paramount: Fortune 500, active H-1B sponsor
+- Perpay: Philadelphia fintech, confirmed H-1B sponsor with 100% approval rate (5 sponsorships in 2025)
+
+WHAT RITHUJAA BRINGS TO ANY DATA TEAM
+Technical:
+- Can write production-quality Python and SQL from day one
+- Knows the full data engineering stack (AWS, Azure, Snowflake, Airflow, Spark)
+- Understands how to build with LLMs — not just use them, but engineer with them
+- Has shipped deployed applications that real users can interact with
+
+Non-technical:
+- Communicates clearly to both technical and non-technical audiences
+- Proactive — finds problems and fixes them without waiting to be asked
+- Comfortable presenting to senior leadership
+- Works well independently in remote environments
+- Adapts quickly to new tools and domains
+
+LONG-TERM CAREER GOALS
+- Build deep expertise at the intersection of data engineering and AI
+- Work on systems where the data and AI work has genuine real-world impact
+- Eventually explore entrepreneurship — has multiple side project ideas including AI-powered tools and products
+- Plans to eventually return to Sri Lanka after approximately 3 years in the US
+
+WHAT MAKES A GREAT INTERVIEW FOR RITHUJAA
+She shines when she can talk about the specific technical decisions she made in her projects — why Isolation Forest instead of another algorithm, how she solved the module conflict in the AI BI Assistant's self-healing code, why she used ChromaDB's EphemeralClient instead of a persistent client. She has real stories behind every project and every technical choice.

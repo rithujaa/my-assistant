@@ -8,62 +8,76 @@ Email: rithujaa128@gmail.com
 LinkedIn: https://www.linkedin.com/in/rithujaa/
 GitHub: https://github.com/rithujaa
 Portfolio: https://rithujaa.github.io/rithujaa-portfolio/
+AI BI Assistant: https://ai-bi-assistant.streamlit.app
+Personal AI Profile Chatbot: https://rithujaa-ai-assistant.streamlit.app
 
 ORIGIN AND BACKGROUND
 - Originally from Sri Lanka
-- Started university in India (computer engineering) before transferring to Canada
-- Moved to Canada for undergrad at UBC in Kelowna, BC
-- Moved to New York City for master's at NYU
+- Started university in India in computer engineering before discovering data science and transferring to Canada
+- Moved to Canada for undergraduate degree at UBC in Kelowna, BC
+- Moved to New York City for master's degree at NYU (2024-2026)
 - Has lived in Sri Lanka, India, Canada, and the United States
-- Describes her journey as "a world tour just to end up in data analytics"
+- Describes her educational journey as "a world tour just to end up in data analytics — but I wouldn't have it any other way"
 
-CAREER STORY
-Math and computers were always Rithujaa's strengths growing up. When she discovered data science, she immediately knew it was the perfect combination of both. She switched from computer engineering in India to data science at UBC in Canada as soon as she found out data science existed as a field.
+CAREER ORIGIN STORY
+Math and computers were always Rithujaa's core strengths growing up. When she first discovered that "data science" existed as a field — a discipline that combines statistical thinking, programming, and real-world problem solving — she immediately knew that was what she wanted to do. She was so certain that she switched from her computer engineering program in India and transferred to UBC in Canada specifically to pursue a Data Science degree. That decision turned out to be exactly right.
 
-She got into NYU's Center for Data Science with a full scholarship (100% CDS Pathbreaker Scholarship) which she describes as "a dream honestly."
+EDUCATIONAL JOURNEY
+- Started in India: Computer Engineering, 2018-2019 (transferred out to pursue data science)
+- Canada: BSc Data Science, University of British Columbia, Kelowna BC, 2019-2023 (GPA 3.7, Dean's List)
+- United States: MS Data Science, NYU Center for Data Science, NYC, 2024-2026 (GPA 3.6, full 100% CDS Pathbreaker Scholarship)
+- She got into NYU's competitive data science program on a full scholarship, which she describes as "honestly a dream"
+
+AI INTEREST STORY — HOW IT ALL STARTED
+Rithujaa's journey into AI started during her Data Science Internship at Trilemma Foundation (September-December 2025). There she used GPT-4o, FinBERT, and RoBERTa to automate financial sentiment analysis as part of a larger investment strategy pipeline. That was the first time she built something real with LLMs — not a tutorial, not a demo, but a production pipeline that actually worked.
+
+Around the same time, a close friend of hers who works as a forward deployed engineer described her job: using AI to build automated workflows, create voice chatbots for products, generate video content, and build digital products entirely using AI tools. Hearing about that completely changed how Rithujaa thought about what AI could do. Before, AI felt like something you used inside notebooks. After that conversation, it felt like something you could build products with.
+
+Since then, she has gone deeper: RAG pipelines, LangChain, ChromaDB, vector databases, agentic AI systems, and n8n for workflow automation. In July 2026, she built and deployed the AI BI Assistant (ai-bi-assistant.streamlit.app) from scratch in a single afternoon — just because she wanted to learn. She is also learning n8n, an open-source workflow automation tool that lets you build agentic AI pipelines. She describes her mindset as: "the more I build with AI, the more fun it gets."
 
 PERSONALITY AND WORK STYLE
-- Naturally curious - questions assumptions
-- Self-starter - builds things without being asked (built AI BI Assistant just to learn)
-- Fast learner - comfortable picking up new tools quickly
-- Collaborative - works well across teams
-- Detail-oriented - cares about accuracy
-- Proactive - doesn't wait to be told what to do
-- Comfortable with ambiguity
-- Not a "wait to be assigned" type - identifies problems and goes after them
+- Naturally curious: always questions assumptions, asks why, digs deeper than the surface answer
+- Self-starter: doesn't wait to be told what to do — identifies problems and builds solutions independently (example: built the AI BI Assistant just to learn, unprompted)
+- Fast learner: comfortable picking up new tools and frameworks quickly, thrives in environments where she has to figure things out
+- Collaborative: works well in teams, communicates clearly, good at making technical things understandable to non-technical people
+- Detail-oriented: cares about accuracy and data quality — a wrong number in a client dashboard has real consequences
+- Comfortable with ambiguity: doesn't need everything spelled out to get started
+- Proactive: looks for problems to solve rather than waiting for them to be assigned
+- Driven by impact: wants to work on things where the analysis actually changes decisions and affects real outcomes
+- Confident presenting to leadership: at Sonline she regularly presented findings to senior client stakeholders without nervousness
 
-AI INTEREST STORY
-Rithujaa got hooked on AI during her Trilemma internship where she used GPT-4o and FinBERT for financial sentiment analysis. Around the same time, a close friend of hers who works as a forward deployed engineer described her work - using AI to build automated workflows, create products, build voice chatbots, generate content like reels and shorts. Hearing about that completely changed how Rithujaa thought about what AI could do. Since then she has been going deeper - agents, RAG pipelines, LLM APIs. She describes it as "the more I build with AI, the more fun it gets."
-
-She is currently learning n8n (workflow automation tool for building agentic pipelines) and is actively building AI projects.
+WHAT SHE IS LIKE TO WORK WITH
+People who work with Rithujaa typically notice that she gets things done without a lot of hand-holding, communicates proactively about progress, and has a genuine curiosity about the problems she's working on. She asks good questions early — which helps avoid wasted effort — and takes feedback well. She is the kind of person who will notice a problem that wasn't assigned to her and fix it anyway.
 
 PERSONAL INTERESTS
-- Foodie - loved exploring all the different restaurants in New York City
-- Travel - loves traveling, has lived in 4 countries
-- Hiking - tries to get outdoors as much as possible
-- FC Barcelona supporter (passionate fan)
-- Fan of Thalapathy Vijay (Tamil cinema)
-- Interested in Tamil Nadu politics (TVK/DMK)
-- Basic Korean language knowledge
+- Foodie: loved exploring the incredible restaurant diversity of New York City during her master's — one of the things she misses most about living there
+- Travel: has lived in 4 countries across 3 continents, loves exploring new places and cultures
+- Hiking: tries to get outdoors and hike as much as possible
+- Football / Soccer: passionate FC Barcelona supporter — follows La Liga closely
+- Tamil Cinema: big fan of Thalapathy Vijay (actor and political figure in Tamil Nadu)
+- Tamil Nadu Politics: closely follows TVK (Thalapathy Vijay's party) and Tamil Nadu political developments
+- Music: enjoys a wide range of music across Tamil, English, and Korean genres
+- Languages: fluent in Tamil and English, conversational in basic Korean
 
 LOCATION
-Currently based in the United States. Open to relocating anywhere in the US for the right opportunity.
+Currently based in the United States. Open to relocating anywhere in the US for the right opportunity. Has experience living in multiple countries and cities and is comfortable with relocation.
 
 WHAT SHE IS LOOKING FOR IN A ROLE
-- A place where data/AI work has real business impact
-- Environment where she can grow fast and learn from experienced people
-- Collaborative, accessible culture (not overly hierarchical)
-- Roles at the intersection of data engineering and AI/ML
-- Company that values employee growth
-- Ideally H-1B sponsorship for long-term stability (though not required for 3 years on OPT)
+- Work that has real business impact — she wants to see her analysis and code actually change decisions, not sit in a report nobody reads
+- Environment where she can grow fast and learn from experienced engineers and data scientists
+- Collaborative, accessible culture — she thrives in flat hierarchies where people at all levels actually talk to each other
+- Roles at the intersection of data engineering and AI/ML — where she can use both her pipeline-building skills and her AI/LLM skills
+- A company that values employee growth and invests in learning
+- H-1B sponsorship is important for long-term stability, though not a blocking requirement for the first 3 years on OPT
 
 SALARY EXPECTATIONS
-- Target range: $90K - $110K for data engineering/data science roles
-- Flexible depending on company, location, and total package
+- Target range: $95K - $130K for data engineering, data science, or AI roles
+- Flexible depending on company, role, location, and total compensation package
+- Open to discussing based on overall offer value
 
 VISA STATUS
-- F-1 OPT
-- EAD expected August 2026
-- Authorized to work in US for up to 3 years without employer sponsorship
-- Would need H-1B sponsorship after OPT period
-- When asked about sponsorship in interviews: "I'm on F-1 OPT, fully authorized to work for the next 3 years without any sponsorship needed"
+- Currently on F-1 OPT (Optional Practical Training)
+- EAD (Employment Authorization Document) expected in August 2026
+- Authorized to work in the US for up to 3 years without the employer needing to sponsor a visa
+- After OPT period, would need H-1B sponsorship to continue working in the US
+- Standard interview response on sponsorship: "I'm on F-1 OPT, fully authorized to work in the US for the next 3 years without any sponsorship needed from the employer"

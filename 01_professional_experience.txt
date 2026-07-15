@@ -2,7 +2,7 @@ RITHUJAA RAJENDRAKUMAR - PROFESSIONAL EXPERIENCE
 =================================================
 
 WORK EXPERIENCE OVERVIEW
-Rithujaa has approximately 1.5 years of professional experience across data engineering, data science, and analytics. She has worked in two professional roles: Analytical Engineer at Sonline LLC and Data Science Intern at Trilemma Foundation.
+Rithujaa has approximately 1.5 years of professional experience across data engineering, data science, and analytics. She has worked in two professional roles: Analytical Engineer at Sonline LLC (May 2023 to August 2024) and Data Science Intern at Trilemma Foundation (September 2025 to December 2025). Since graduating from NYU in May 2026, she has continued building AI projects independently.
 
 ---
 
@@ -12,51 +12,64 @@ Duration: May 2023 to August 2024 (approximately 15 months)
 Type: Full-time, Remote
 
 What Sonline Does:
-Sonline LLC is a data and analytics consultancy that serves enterprise clients across multiple industries. Rithujaa worked directly with enterprise clients, building data pipelines, dashboards, and analytical tools.
+Sonline LLC is a data and analytics consultancy that serves enterprise clients across multiple industries including energy, manufacturing, and operations. Rithujaa worked directly with enterprise clients as the primary engineer and analyst on client accounts.
 
-What Rithujaa Did:
-Rithujaa worked as an Analytical Engineer supporting 3+ enterprise clients simultaneously. Her work covered the full spectrum from raw data ingestion to client-facing dashboards and reports.
+Day-to-Day Work:
+Rithujaa supported 3+ enterprise clients simultaneously. A typical day involved writing SQL queries to extract and transform operational data, building or updating Power BI dashboards for client review, maintaining ETL pipelines in Python, and communicating findings to both technical and non-technical client stakeholders. She managed her own work independently with minimal supervision.
 
 Data Engineering Work:
-- Built and maintained ETL pipelines using Python and AWS (S3, Glue, Lambda, EC2) to ingest, transform, and deliver operational data from multiple sources
-- Used Snowflake as the primary data warehouse, writing advanced SQL including CTEs, window functions, stored procedures, and joins
-- Worked with Power BI to build dashboards and reporting solutions for enterprise clients
-- Used AWS Glue for data transformation and orchestration
-- Reduced reporting turnaround from days to hours by automating manual data processing workflows
+- Built and maintained ETL pipelines using Python and AWS (S3, Glue, Lambda, EC2) to ingest, transform, and deliver operational data from multiple source systems
+- Used Snowflake as the primary data warehouse, writing advanced SQL including CTEs, window functions, stored procedures, and complex joins
+- Used AWS Glue for serverless ETL transformation and orchestration
+- Automated manual reporting workflows using Python and Pandas, reducing reporting turnaround from days to hours
+- Built Power BI dashboards connected to Snowflake and other data sources for enterprise client reporting
+- Maintained data documentation including pipeline architecture, transformation logic, and data lineage
 
-Machine Learning and Statistical Modeling:
-- Applied Isolation Forest anomaly detection to wind turbine vibration sensor time-series data for an energy sector client
-- Applied survival analysis to the same wind turbine dataset to model equipment degradation and predict lifespan
-- Achieved 0.91 precision in identifying early-stage mechanical degradation signals
-- This work enabled the client's maintenance teams to shift from reactive to proactive maintenance operations, significantly reducing operational costs
+Machine Learning and Statistical Modeling — Wind Turbine Project:
+One of the most impactful projects at Sonline involved an energy sector client operating wind turbines. The client had vibration sensor data from turbine components but no systematic way to identify early-stage mechanical degradation before it led to failures.
+
+What Rithujaa did:
+- Ingested and cleaned large time-series vibration sensor data from wind turbine components using Python and Pandas
+- Applied Isolation Forest, an unsupervised machine learning algorithm, to detect anomalies in the sensor readings
+- Isolation Forest works by randomly partitioning data and flagging points that are isolated quickly as anomalies — it is well suited for unlabeled time-series sensor data where no historical failure labels exist
+- Applied survival analysis to model equipment degradation over time and predict when components were likely to fail
+- Achieved 0.91 precision — meaning 91% of the anomalies flagged by the model were genuine early-stage mechanical problems
+- Built a Power BI dashboard showing risk scores for each turbine component, color-coded by severity
+- Communicated findings to the client's operations team in plain language, explaining which turbines were at risk and when action was needed
+
+The result: the client's maintenance teams shifted from reactive maintenance (fixing things after they break) to proactive maintenance (preventing failures before they happen), significantly reducing downtime and operational costs.
+
+Why Isolation Forest was chosen:
+Isolation Forest was the right tool because the sensor data was unlabeled — there was no historical record of which readings corresponded to actual failures. Isolation Forest can detect anomalies without needing labeled training data, making it ideal for this use case.
 
 Tools and Technologies Used Professionally at Sonline:
 - Python (Pandas, NumPy, Scikit-learn)
-- SQL (advanced - CTEs, window functions, stored procedures, joins, query optimization)
-- AWS (S3, Glue, Lambda, EC2)
-- Snowflake
-- Power BI
-- Microsoft Excel
-- Isolation Forest (anomaly detection)
-- Survival Analysis
+- SQL (advanced — CTEs, window functions, stored procedures, joins, query optimization)
+- AWS S3 (object storage and staging)
+- AWS Glue (ETL transformation)
+- AWS Lambda (serverless functions)
+- AWS EC2 (virtual machines)
+- Snowflake (data warehouse — Snowpipe, SQL, stored procedures)
+- Power BI (enterprise dashboards for 3+ clients)
+- Microsoft Excel (reporting and validation)
+- Isolation Forest (anomaly detection on sensor data)
+- Survival Analysis (equipment degradation modeling)
 
-Key Accomplishments:
-- Reduced client reporting turnaround from days to hours through automation
+Key Accomplishments at Sonline:
+- Reduced client reporting turnaround from days to hours through Python automation
 - Achieved 0.91 precision on anomaly detection model for wind turbine sensor data
 - Successfully managed 3+ enterprise clients simultaneously
 - Built Power BI dashboards that clients used daily for operational decision-making
-- Collaborated across engineering and analytics teams to deliver end-to-end solutions
+- Helped an energy client transition from reactive to proactive maintenance operations
+- Collaborated across engineering and analytics teams to deliver end-to-end data solutions
 
-Domain Experience:
-- Energy sector (wind turbine operations and maintenance)
-- Enterprise operations and analytics
-
-What Rithujaa Learned:
-- How to work with real enterprise clients and manage their expectations
-- How to translate business problems into analytical solutions
-- How to communicate technical findings to non-technical stakeholders
-- Production-grade data pipeline development
+What Rithujaa Learned at Sonline:
+- How to work with real enterprise clients and manage their expectations professionally
+- How to translate complex business problems into practical analytical solutions
+- How to communicate technical findings clearly to non-technical stakeholders
+- Production-grade data pipeline development using AWS and Snowflake
 - The importance of data quality and reliability in real business environments
+- How to manage multiple priorities and clients simultaneously in a remote environment
 
 ---
 
@@ -66,53 +79,81 @@ Duration: September 2025 to December 2025 (4 months)
 Type: Internship, Remote
 
 What Trilemma Foundation Does:
-Trilemma Foundation is a financial research organization focused on developing data-driven investment strategies using alternative data sources, machine learning, and AI.
+Trilemma Foundation is a financial research organization focused on developing data-driven investment strategies using alternative data sources, machine learning, and AI. They research how non-traditional data signals — like social sentiment, crypto on-chain metrics, and macroeconomic indicators — can be combined to create better financial strategies.
 
-What Rithujaa Did:
-Rithujaa worked as a Data Science Intern building a sophisticated financial strategy pipeline that combined traditional ML with large language models (LLMs) and NLP.
+The Problem Being Solved:
+Traditional quantitative finance strategies rely heavily on price data, volume, and simple technical indicators. The research question at Trilemma was: can we use alternative data sources — particularly natural language sentiment from financial news and on-chain crypto data — to build a more predictive strategy?
 
-ML and AI Work:
-- Built a 6-agent ensemble ML strategy that combined multiple signal types
-- Used LLMs including GPT-4o, FinBERT, RoBERTa, and VADER to automate sentiment analysis on financial text
-- FinBERT and RoBERTa are NLP models specifically trained on financial language
-- VADER is a sentiment analysis tool for general text
-- GPT-4o was used for more complex analytical automation
-- Engineered 369 features across three categories: on-chain crypto metrics, macroeconomic indicators, and NLP sentiment signals
+What Rithujaa Built:
+
+Feature Engineering (369 features across 3 categories):
+1. On-chain crypto metrics — blockchain-level data including transaction volume, active addresses, miner revenue, and network hash rate
+2. Macroeconomic indicators — interest rates, inflation data, unemployment figures, and other macro signals
+3. NLP sentiment signals — sentiment extracted from financial news and text using multiple models
+
+NLP and LLM Pipeline:
+- FinBERT: A BERT-based model specifically pre-trained on financial text. Used to extract sentiment from financial news articles. Far more accurate than general sentiment tools because it understands financial language nuances.
+- RoBERTa: A more powerful general NLP model used for deeper text understanding and classification.
+- VADER: A rule-based sentiment analysis tool used for quick baseline sentiment scoring.
+- GPT-4o (OpenAI API): Used for more complex tasks — summarizing financial reports, extracting structured insights from unstructured text, and automating analytical tasks that required genuine language understanding.
+
+The 6-Agent Ensemble:
+Rithujaa built a 6-agent ensemble ML strategy where each agent specialized in a different combination of signal types:
+- Agent 1: On-chain signals only
+- Agent 2: Macro signals only
+- Agent 3: NLP sentiment signals only
+- Agent 4: On-chain + Macro combined
+- Agent 5: On-chain + NLP combined
+- Agent 6: All signals combined
+
+The ensemble combined the outputs of all 6 agents using weighted averaging, making the system robust — if one signal type was noisy in a given period, other agents compensated.
+
+Backtesting and Validation:
 - Validated the strategy across 3,075 rolling 12-month backtesting windows
-- Achieved a 90.37% win rate over the baseline strategy
-- Applied statistical significance testing across all backtesting windows
+- Applied statistical significance testing to ensure results were not due to chance
+- Achieved a 90.37% win rate over the baseline strategy — meaning the ensemble outperformed the baseline 9 out of 10 times across all testing windows
 
-Data Pipeline Work:
-- Built scalable Python data pipelines to process financial data from multiple sources
-- Automated data collection, transformation, and feature engineering workflows
+Data Pipeline:
+- Built scalable Python pipelines to collect, clean, and transform financial data from multiple sources
+- Automated data collection, transformation, and feature engineering workflows end to end
+- Ensured data quality at each step with validation checks
+
+Streamlit Dashboard:
 - Built an interactive Streamlit dashboard to monitor strategy performance KPIs in real time
+- The dashboard displayed win rates, signal breakdowns, and feature importance across testing windows
+- Made it easy for non-technical researchers to understand what was driving the strategy's performance
 
 Tools and Technologies Used at Trilemma:
 - Python (Pandas, NumPy, Scikit-learn)
-- GPT-4o (OpenAI API)
-- FinBERT (financial NLP model)
-- RoBERTa (NLP model)
-- VADER (sentiment analysis)
-- Streamlit (dashboard)
-- Statistical significance testing
-- Ensemble ML methods
+- GPT-4o (OpenAI API) for language understanding and automation
+- FinBERT (financial NLP model) for sentiment extraction from financial text
+- RoBERTa (general NLP model) for text classification
+- VADER (rule-based sentiment tool) for baseline sentiment scoring
+- Ensemble ML methods (weighted averaging across 6 agents)
+- Streamlit (real-time KPI dashboard)
+- Statistical significance testing and time-series backtesting
 
-Key Accomplishments:
+Key Accomplishments at Trilemma:
 - 90.37% win rate over baseline across 3,075 backtesting windows
-- 369 engineered features across multiple data types
-- Built automated LLM-powered financial analysis pipeline
-- Live Streamlit dashboard for real-time monitoring
+- 369 engineered features across three different data categories
+- Built an automated LLM-powered financial analysis pipeline from scratch
+- Delivered a live Streamlit dashboard for real-time strategy monitoring
+- This internship was the turning point — Rithujaa got deeply hooked on building with AI
 
-What Rithujaa Learned:
-- How to apply LLMs to real analytical problems (not just tutorials)
-- Financial data analysis and the nuances of financial NLP
-- How to build production-ready pipelines with LLMs integrated
-- This is where Rithujaa got "hooked" on the AI side of data science
-- The difference between general NLP models and domain-specific ones like FinBERT
+What Rithujaa Learned at Trilemma:
+- How to apply LLMs to real analytical problems, not just tutorials or demos
+- The difference between general NLP models and domain-specific models like FinBERT
+- How to engineer features from multiple heterogeneous data sources
+- How to build production-ready pipelines with LLMs integrated as components
+- How ensemble methods make ML strategies more robust and reliable
+- Financial data nuances and time-series data handling
 
 ---
 
-CAREER TRAJECTORY NOTE:
-Rithujaa started in traditional data engineering and analytics (Sonline) and progressively moved toward AI and LLM-powered workflows (Trilemma). Since graduating in May 2026 she has continued building AI projects independently, most notably the AI Business Intelligence Assistant (deployed at ai-bi-assistant.streamlit.app), which she built in one afternoon using GPT-4o, LangChain, ChromaDB, and RAG.
+CAREER TRAJECTORY:
+Rithujaa's career shows a clear and intentional progression:
+- Sonline (2023-2024): Built strong foundations in data engineering, SQL, Python, and client-facing analytics using AWS and Snowflake
+- Trilemma (2025): Moved into AI and LLM-powered workflows, applying ML, NLP, and GPT-4o to financial data research
+- Post-graduation (2026-present): Independently building AI applications including the AI BI Assistant (live at ai-bi-assistant.streamlit.app, GitHub: https://github.com/rithujaa/ai-bi-assistant) and Personal AI Profile Assistant (live at rithujaa-ai-assistant.streamlit.app), and learning n8n for agentic AI workflows
 
-She is currently on F-1 OPT, authorized to work in the US for 3 years without sponsorship needed from the employer. Her EAD is expected in August 2026.
+She is currently on F-1 OPT, authorized to work in the US for up to 3 years without employer sponsorship. Her EAD is expected in August 2026.

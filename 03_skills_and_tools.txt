@@ -2,81 +2,227 @@ RITHUJAA RAJENDRAKUMAR - SKILLS AND TOOLS
 ==========================================
 
 PROGRAMMING LANGUAGES
-- Python: Strong. Primary language. Used daily. Pandas, NumPy, Scikit-learn, PySpark, automation scripting.
-- SQL: Strong. Advanced level. CTEs, window functions, stored procedures, complex joins, query optimization, dimensional modeling.
-- R: Familiar. Used in academic coursework and some analytical work.
-- Git: Used for version control across all projects.
+
+Python:
+Proficiency: Strong — primary language, used daily
+Used for: data manipulation (Pandas, NumPy), machine learning (Scikit-learn), data pipeline development, API integrations, automation scripting, LLM applications (OpenAI API, LangChain), web apps (Streamlit), PySpark
+Used professionally at Sonline for ETL pipelines, dashboards, and ML models. Used at Trilemma for financial data pipelines and LLM integration. Used in all personal projects.
+
+SQL:
+Proficiency: Strong — advanced level
+Used for: CTEs, window functions, stored procedures, complex multi-table joins, query optimization, dimensional modeling, star schema design, SCD1/SCD2 implementations
+Used professionally at Sonline with Snowflake for client reporting and data transformation. Used in CDC pipeline with complex Snowflake stored procedures. Used in DataBridge for DuckDB star schema. Used in Spotify ETL for Snowflake table setup. SQL is present in most projects.
+
+R:
+Proficiency: Familiar — used in academic coursework and some analytical work at UBC and NYU
+Used for statistical analysis, regression modeling, data visualization
+
+Git / GitHub:
+Proficiency: Comfortable — used for version control across all projects
+All projects on GitHub at https://github.com/rithujaa
+
+---
 
 DATA ENGINEERING TOOLS
-- AWS S3: Used professionally at Sonline and in multiple projects. Object storage, staging area for pipelines.
-- AWS Glue: Used professionally at Sonline for data transformation and ETL.
-- AWS Lambda: Familiar from projects.
-- AWS EC2: Used in CDC pipeline for hosting NiFi.
-- Azure Data Factory: Used in E-Commerce pipeline for orchestration.
-- Azure Databricks: Used in E-Commerce pipeline for PySpark processing.
-- Azure Synapse Analytics: Used in E-Commerce pipeline as consumption layer.
-- Azure Data Lake Storage Gen2: Used in E-Commerce pipeline.
-- Snowflake: Used professionally at Sonline and in CDC pipeline. Snowpipe, Streams, Tasks, CDC, SCD1/SCD2.
-- Apache Airflow: Used in Airflow pipeline project. DAG-based orchestration.
-- Apache NiFi: Used in CDC pipeline for real-time streaming.
-- Apache Kafka: Used in Kafka pipeline project for streaming.
-- Apache Spark / PySpark: Used in E-Commerce pipeline via Databricks.
-- Delta Lake: Used in E-Commerce pipeline. Bronze/Silver/Gold Medallion Architecture.
-- Docker: Used in CDC pipeline and Airflow pipeline for containerization.
-- DuckDB: Used in DataBridge project as analytical database.
-- PostgreSQL: Used in Airflow pipeline as source database.
+
+AWS S3:
+Context: Used professionally at Sonline as object storage and ETL staging. Used in CDC pipeline as staging area between NiFi and Snowflake. Used in Airflow pipeline as data lake destination. Used in Spotify ETL for raw and processed data storage.
+
+AWS Glue:
+Context: Used professionally at Sonline for serverless ETL transformation and orchestration of client data pipelines.
+
+AWS Lambda:
+Context: Used in Spotify ETL pipeline — one Lambda function for extraction from Spotify API, one for transformation. Triggered automatically by S3 events.
+
+AWS EC2:
+Context: Used in CDC pipeline to host Apache NiFi in a Docker container for real-time event streaming.
+
+Azure Data Factory (ADF):
+Context: Used in E-Commerce pipeline for orchestration with event-based triggers (file arrival in ADLS triggers pipeline automatically). Used in Olympics Azure pipeline for data ingestion from GitHub to ADLS.
+
+Azure Databricks:
+Context: Used in E-Commerce pipeline for PySpark transformation across Bronze, Silver, and Gold Delta Lake layers. Used in Olympics Azure pipeline for PySpark data transformation.
+
+Azure Synapse Analytics:
+Context: Used in E-Commerce pipeline and Olympics pipeline as the final consumption layer for SQL querying and dashboarding of transformed data.
+
+Azure Data Lake Storage Gen2 (ADLS Gen2):
+Context: Used as the underlying storage in both Azure data projects (E-Commerce pipeline and Olympics pipeline) for landing zones and Delta Lake storage.
+
+Snowflake:
+Proficiency: Strong — used professionally and in depth in personal projects
+Context at Sonline: Primary data warehouse for enterprise client data. Wrote advanced SQL, stored procedures, and used as the reporting layer behind Power BI dashboards.
+Context in CDC pipeline: Deep Snowflake usage — Snowpipe (auto-ingest from S3), Streams (CDC tracking — detects inserts, updates, deletes), Tasks (automated stored procedure execution), SCD1 and SCD2 stored procedures, Snowflake SQL.
+Context in Spotify ETL: Snowpipe for auto-loading processed data, SQL for table definitions and staging configuration.
+
+Apache Airflow:
+Context: Used in Airbnb Automated Pipeline project. Built DAGs for orchestrated data extraction from PostgreSQL to AWS S3. Developed a custom PostgresToS3Operator. Containerized with Docker.
+
+Apache NiFi:
+Context: Used in CDC pipeline for real-time event streaming from source to AWS S3. Hosted in Docker container on AWS EC2.
+
+Apache Kafka:
+Context: Used in Kafka pipeline project for real-time streaming of Citi Bikes live data to AWS S3.
+
+Apache Spark / PySpark:
+Context: Used in E-Commerce pipeline via Azure Databricks for distributed data transformation across Bronze, Silver, and Gold layers. Used in Olympics pipeline for data transformation and aggregation.
+
+Delta Lake:
+Context: Used in E-Commerce pipeline for all three Medallion Architecture layers (Bronze, Silver, Gold). Provides ACID transactions, time travel, and efficient columnar storage.
+
+Docker:
+Context: Used in CDC pipeline to containerize Apache NiFi. Used in Airflow pipeline (Docker Compose for multi-service setup).
+
+DuckDB:
+Context: Used in DataBridge as the analytical database. Designed a star schema with fact and dimension tables for cross-city restaurant inspection data.
+
+PostgreSQL:
+Context: Used in Airflow pipeline as the source database from which Airflow extracts Airbnb data.
+
+---
 
 MACHINE LEARNING AND DATA SCIENCE
-- XGBoost: Used in Airbnb ML project. AUC=0.939 on occupancy classification.
-- CatBoost: Used in Airbnb ML project as benchmarked model.
-- Random Forest: Used in Airbnb ML project as benchmarked model.
-- Logistic Regression: Used in Airbnb ML project as baseline.
-- Linear Regression: Used in Airbnb ML project for revenue prediction.
-- Isolation Forest: Used professionally at Sonline for anomaly detection on wind turbine sensor data. 0.91 precision.
-- Survival Analysis: Used professionally at Sonline for equipment degradation modeling.
-- K-Means Clustering: Used in NBA Player Similarity App.
-- HDBSCAN: Used in DataBridge for density-based clustering of violation categories.
-- Feature Engineering: Extensive experience. 83 features for Airbnb, 369 features for Trilemma.
-- Statistical Analysis: Hypothesis testing, statistical significance testing, backtesting.
 
-NLP AND AI
-- VADER: Sentiment analysis tool. Used in Airbnb ML project on listing text.
-- Sentence Transformers (all-MiniLM-L6-v2): Used in DataBridge for semantic embeddings.
-- FinBERT: Financial domain NLP model. Used at Trilemma for sentiment on financial text.
-- RoBERTa: General NLP model. Used at Trilemma.
-- GPT-4o (OpenAI API): Used in DataBridge for taxonomy labeling. Used in AI BI Assistant as core LLM. Used at Trilemma for automated analysis.
-- Anthropic API (Claude): Familiar. Has used in some workflows.
-- LangChain: Used in AI BI Assistant for RAG pipeline, text splitting.
-- ChromaDB: Used in AI BI Assistant as vector database (EphemeralClient).
-- OpenAI Embeddings (text-embedding-ada-002): Used in AI BI Assistant for PDF chunk embeddings.
-- RAG (Retrieval Augmented Generation): Implemented in AI BI Assistant for PDF question answering.
-- Prompt Engineering: Used extensively across all LLM projects.
+XGBoost:
+Context: Used in Airbnb ML project as the best-performing model (AUC=0.939 for classification, R2=0.652 for revenue regression). Also used in Employee Attrition project (AUC=0.79).
+
+CatBoost:
+Context: Used in Airbnb ML project as a benchmark model. Best performer in Employee Attrition project (AUC=0.82).
+
+Random Forest:
+Context: Benchmarked in Airbnb ML and Employee Attrition projects.
+
+Logistic Regression / Linear Regression:
+Context: Used as baseline models in Airbnb ML and Employee Attrition projects.
+
+Isolation Forest:
+Proficiency: Used professionally in production at Sonline
+Context: Applied to wind turbine vibration sensor time-series data at Sonline. Chose Isolation Forest because the data was unlabeled (no historical failure records). Achieved 0.91 precision in detecting early-stage mechanical degradation. This work enabled a client to shift from reactive to proactive maintenance.
+
+Survival Analysis:
+Proficiency: Used professionally at Sonline
+Context: Applied alongside Isolation Forest on wind turbine data to model equipment degradation over time and predict remaining useful lifespan of components.
+
+K-Means Clustering:
+Context: Used in NBA Player Similarity App to group players by statistical similarity.
+
+HDBSCAN:
+Context: Used in DataBridge for density-based clustering of restaurant violation categories across cities. HDBSCAN was chosen over K-Means because it doesn't require specifying the number of clusters in advance — useful when you don't know how many distinct violation types exist.
+
+Feature Engineering:
+Context: Extensive experience. Engineered 83 features for Airbnb ML project. Engineered 369 features across 3 data categories (on-chain metrics, macroeconomic indicators, NLP sentiment) for Trilemma Foundation strategy.
+
+Statistical Analysis:
+Context: Hypothesis testing, statistical significance testing (used to validate Trilemma backtesting results across 3,075 windows), backtesting methodology, confidence intervals.
+
+SMOTE (Synthetic Minority Oversampling Technique):
+Context: Used in Employee Attrition project to handle class imbalance in the IBM HR dataset.
+
+---
+
+NLP AND AI TOOLS
+
+VADER (Valence Aware Dictionary and sEntiment Reasoner):
+Context: Rule-based sentiment analysis tool. Used in Airbnb ML project to extract sentiment scores from listing description text. Used at Trilemma as a baseline sentiment signal. Fast and works well on short texts.
+
+Sentence Transformers (all-MiniLM-L6-v2):
+Context: Used in DataBridge to convert restaurant violation category text into semantic vector embeddings. These embeddings allowed HDBSCAN to group violations that meant the same thing even if worded differently.
+
+FinBERT:
+Context: A BERT-based model pre-trained specifically on financial text. Used at Trilemma Foundation to extract sentiment from financial news articles. More accurate than general-purpose models for financial language because it understands terms like "bullish", "bearish", "outperform", "underperform" in their financial context.
+
+RoBERTa:
+Context: A powerful general-purpose NLP model. Used at Trilemma for deeper text classification and understanding alongside FinBERT.
+
+GPT-4o (OpenAI API):
+Proficiency: Strong — actively building production applications with it
+Context at Trilemma: Used for complex financial analysis automation — summarizing reports, extracting structured insights from unstructured text.
+Context in DataBridge: Used for labeling violation taxonomy clusters and validating semantic crosswalk mappings.
+Context in AI BI Assistant: Core engine — writes pandas code, generates charts, creates executive summaries, suggests questions, explains results in plain English.
+
+GPT-4o-mini (OpenAI API):
+Context: Used in Personal AI Profile Chatbot (rithujaa-ai-assistant.streamlit.app) for answer generation. 15-20x cheaper than GPT-4o, ideal for Q&A over structured documents.
+
+Anthropic API (Claude):
+Context: Familiar and has used in some automation workflows.
+
+LangChain:
+Context: Used in AI BI Assistant for the PDF RAG pipeline — specifically RecursiveCharacterTextSplitter for chunking and the retrieval chain. Also used in Personal AI Profile Chatbot.
+
+ChromaDB:
+Context: In-memory vector database used in both RAG applications (AI BI Assistant and Personal AI Profile Chatbot). Uses EphemeralClient to ensure no data bleeding between sessions.
+
+OpenAI Embeddings (text-embedding-ada-002):
+Context: Used in both RAG applications to convert text chunks into 1,536-dimensional vector embeddings for semantic similarity search.
+
+RAG (Retrieval Augmented Generation):
+Context: Implemented from scratch in two projects:
+1. AI BI Assistant — RAG for PDF question answering (chunking > embedding > ChromaDB storage > retrieval > GPT-4o generation)
+2. Personal AI Profile Chatbot — RAG over 6 structured profile documents (same pipeline, GPT-4o-mini for generation)
+
+Prompt Engineering:
+Context: Used extensively across all LLM projects. Examples include: telling GPT-4o to use only specific Python libraries (pandas, numpy, scipy) and never matplotlib; instructing GPT-4o to return only JSON with no markdown; engineering prompts that make GPT-4o reliably produce structured outputs.
+
+n8n (Workflow Automation):
+Currently learning. n8n is an open-source workflow automation tool for building agentic AI pipelines. Exploring how to connect LLMs to data sources, APIs, and automated workflows without heavy coding.
+
+Agentic AI:
+Understanding and building agentic systems where AI takes autonomous actions to complete multi-step tasks. The AI BI Assistant includes a simple agentic loop — write code > execute > catch errors > retry with different approach.
+
+---
 
 BUSINESS INTELLIGENCE AND VISUALIZATION
-- Power BI: Used professionally at Sonline for enterprise client dashboards. Strong.
-- Tableau: Used in Amazon Stock Dashboard project. Strong.
-- Streamlit: Used at Trilemma for KPI dashboard. Used in AI BI Assistant. Used in NBA app.
-- Microsoft Excel: PivotTables, advanced formulas, Power Query.
-- Plotly Express: Used in AI BI Assistant for automatic chart generation.
+
+Power BI:
+Proficiency: Strong — used professionally in production
+Context: Built dashboards for 3+ enterprise clients at Sonline. Connected to Snowflake as data source. Created KPI scorecards, trend charts, and operational monitoring dashboards used daily by client teams.
+
+Tableau:
+Proficiency: Strong — built and deployed live dashboard
+Context: Built Amazon Stock Performance Dashboard (live at https://public.tableau.com/app/profile/rithujaa.rajendrakumar4680/viz/Rajendrakumar_Rithujaa_assignment_2/Dashboard1) with KPI scorecards, trend visualizations, and dynamic date-range parameters.
+
+Streamlit:
+Proficiency: Strong — built and deployed multiple production applications
+Applications built: AI BI Assistant (ai-bi-assistant.streamlit.app), Personal AI Profile Chatbot (rithujaa-ai-assistant.streamlit.app), Trilemma strategy monitoring dashboard, NBA Player Similarity App (nba-player-similarity-tool.streamlit.app).
+
+Plotly Express:
+Context: Used in AI BI Assistant for automatic interactive chart generation. GPT-4o writes the Plotly code; the app renders it.
+
+Microsoft Excel:
+Context: PivotTables, advanced formulas, Power Query for data validation and ad hoc analysis.
+
+---
 
 DATA QUALITY AND GOVERNANCE
-- Data validation frameworks: Precision, recall, reconciliation scripts.
-- Documentation: Pipeline architecture docs, data lineage, transformation logic.
-- SCD1/SCD2 modeling: Implemented in CDC pipeline.
-- Dimensional modeling: Star schema design in DataBridge and CDC pipeline.
 
-PROFICIENCY SELF-ASSESSMENT
-- Python: Strong (uses daily, comfortable with complex tasks)
-- SQL: Strong (advanced queries, stored procedures, optimization)
-- Power BI: Strong (built production dashboards for enterprise clients)
-- Tableau: Strong (built live deployed dashboard, comfortable with all key features)
-- Snowflake: Strong (professional use at Sonline + deep project use including CDC, Streams, Tasks)
-- Machine Learning: Strong (production use at Sonline with 0.91 precision on anomaly detection, XGBoost AUC=0.939 on Airbnb project, 9 models benchmarked, survival analysis)
-- LLMs/GPT-4o: Strong (actively building production applications with them)
-- Azure: Intermediate-Strong (real project use — ADF, Databricks, Synapse, Delta Lake)
-- AWS: Intermediate-Strong (professional use at Sonline + multiple projects — S3, Glue, EC2, Lambda)
-- OOP Python: Intermediate (uses Python well, primarily procedural/functional style)
-- PySpark: Intermediate (used in E-Commerce pipeline via Databricks)
-- Apache Airflow: Intermediate (built full orchestration pipeline)
-- dbt: Basic familiarity (limited direct exposure)
+Data Validation Frameworks:
+Context: Built Python reconciliation scripts in CDC pipeline to verify record counts between RAW, SCD1, and SCD2 layers. Used precision and recall metrics to validate DataBridge crosswalk quality.
+
+Documentation Practices:
+Context: Maintains pipeline architecture documentation, data lineage records, and transformation logic for all major projects.
+
+SCD1/SCD2 Dimensional Modeling:
+Context: Implemented in CDC pipeline. SCD1 uses MERGE for current-state upserts. SCD2 tracks full history with effective dates (START_DATE, END_DATE, CURRENT_FLAG).
+
+Star Schema Design:
+Context: Designed and implemented in DataBridge (DuckDB) and CDC pipeline (Snowflake). Includes fact and dimension tables with proper primary and foreign key relationships.
+
+---
+
+PROFICIENCY SUMMARY
+- Python: Strong
+- SQL: Strong
+- Power BI: Strong
+- Tableau: Strong
+- Snowflake: Strong (professional + deep project experience)
+- Machine Learning: Strong (0.91 precision Isolation Forest at Sonline, XGBoost AUC=0.939, 9 models benchmarked, survival analysis in production)
+- LLMs / GPT-4o: Strong (building production AI applications)
+- RAG: Intermediate-Strong (implemented in 2 deployed applications)
+- AWS: Intermediate-Strong (professional use at Sonline + S3, Glue, Lambda, EC2 in projects)
+- Azure: Intermediate-Strong (ADF, Databricks, Synapse, ADLS Gen2 in projects)
+- PySpark: Intermediate (E-Commerce and Olympics pipelines via Databricks)
+- Apache Airflow: Intermediate (full pipeline with custom operator)
+- LangChain: Intermediate (RAG pipeline implementation)
+- dbt: Basic familiarity
 - Looker: Not currently in stack
+- n8n: Currently learning

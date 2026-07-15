@@ -5,36 +5,38 @@ DEGREE 1: MASTER OF SCIENCE IN DATA SCIENCE
 Institution: New York University, Center for Data Science (NYU CDS)
 Location: New York, NY
 Duration: September 2024 to May 2026
-Final Cumulative GPA: 3.6 / 4.0 
-Scholarship: 100% CDS Pathbreaker Scholarship (full scholarship, competitive award)
-Degree Awarded: May 14, 2026 — ALREADY GRADUATED, degree has been conferred
+Final Cumulative GPA: 3.6 / 4.0
+Scholarship: 100% CDS Pathbreaker Scholarship — a highly competitive, full-ride scholarship awarded to exceptional candidates
+Degree Awarded: May 14, 2026
 Status: COMPLETED. Rithujaa has already graduated. She is NOT currently pursuing this degree.
 
-
 About NYU CDS:
-The Center for Data Science at NYU is one of the top data science programs in the US. It is referred to as "Center for Data Science".
+The NYU Center for Data Science is one of the top data science graduate programs in the United States. It is interdisciplinary and rigorous, combining mathematics, statistics, computer science, and domain expertise. The program is referred to as the "Center for Data Science" — not "Centre."
+
+About the Scholarship:
+The CDS Pathbreaker Scholarship is one of the most competitive scholarships in the NYU data science program. It covers 100% of tuition and is awarded to candidates who demonstrate exceptional academic ability and promise in data science. Receiving this scholarship is a significant achievement and reflects Rithujaa's academic caliber.
 
 NYU Coursework (verified from official transcript):
 
 Fall 2024:
-- Introduction to Data Science
-- Probability and Statistics for Data Science
-- Optimization and Computational Linear Algebra
+- Introduction to Data Science — fundamentals of data science methodology, tools, and workflows
+- Probability and Statistics for Data Science — statistical foundations for ML and data analysis
+- Optimization and Computational Linear Algebra — mathematical foundations for machine learning algorithms
 
 Spring 2025:
-- Machine Learning
-- Big Data
-- Advanced Python for Data Science
+- Machine Learning — supervised and unsupervised learning algorithms, model evaluation
+- Big Data — distributed computing, Spark, large-scale data processing
+- Advanced Python for Data Science — Python programming at an advanced level for data science applications
 
 Fall 2025:
-- Capstone Project and Presentation
-- Data Science and AI for Business: Technical
-- Data Visualization
+- Capstone Project and Presentation — applied data science project presented to faculty and industry
+- Data Science and AI for Business: Technical — applying AI and data science to real business problems
+- Data Visualization — principles and practice of data visualization for communication
 
 Spring 2026:
-- Responsible Data Science
-- Database Systems
-- Special Topics in Data Science: Data Engineering
+- Responsible Data Science — ethics, fairness, privacy, and accountability in data science
+- Database Systems — relational databases, SQL, data modeling, query optimization
+- Special Topics in Data Science: Data Engineering — modern data engineering practices, pipelines, and infrastructure
 
 Total Credits: 36 credit hours
 
@@ -44,61 +46,63 @@ DEGREE 2: BACHELOR OF SCIENCE IN DATA SCIENCE
 Institution: University of British Columbia (UBC)
 Campus: Okanagan campus, Kelowna, BC, Canada
 Duration: 2019 to May 2023
-GPA: 3.7/4.0
-Honor: Dean's List (confirmed on transcript)
+GPA: 3.7 / 4.0
+Honor: Dean's List (confirmed on official transcript)
 Degree Granted: May 18, 2023
-Student Number: 36215556
 
 About UBC:
-University of British Columbia is one of Canada's top universities. Rithujaa attended the Okanagan campus in Kelowna, BC. She received transfer credits from her post-secondary institution in India (2018-2019).
+The University of British Columbia is one of Canada's top-ranked universities, consistently ranked among the top 40 universities in the world. Rithujaa attended the UBC Okanagan campus in Kelowna, BC. She received transfer credits from her post-secondary institution in India where she had started in computer engineering (2018-2019) before switching to data science.
+
+Why She Switched from Computer Engineering to Data Science:
+When Rithujaa discovered that data science existed as a field, she immediately recognized it as the perfect combination of her two strongest areas — mathematics and computers. She transferred to UBC specifically to pursue data science and never looked back.
 
 UBC Coursework (verified from official transcript):
 
 Year 2 (2019-2020):
-- Computer Programming I
-- Readings in Narrative
+- Computer Programming I — Python, algorithms, problem solving
+- Readings in Narrative — academic writing and communication
 - Differential Calculus with Applications to Physical Sciences and Engineering
 - Introductory Physics for the Physical Sciences I
-- Computer Programming II
-- Studies in Composition
+- Computer Programming II — object-oriented programming, data structures
+- Studies in Composition — technical writing
 - Integral Calculus to Physical Sciences and Engineering
 - Introductory Physics for the Physical Sciences II
 
 Year 2 (2020-2021):
-- Data Structures
-- Introduction to Databases
-- Principles of Microeconomics
-- Calculus III
-- Introduction to Discrete Structures
-- Introduction to Data Analytics
-- Matrix Algebra
+- Data Structures — algorithms, trees, graphs, sorting
+- Introduction to Databases — SQL, relational databases, data modeling
+- Principles of Microeconomics — supply and demand, market equilibrium
+- Calculus III — multivariable calculus
+- Introduction to Discrete Structures — logic, proofs, combinatorics
+- Introduction to Data Analytics — exploratory data analysis, visualization
+- Matrix Algebra — linear algebra, matrices, eigenvectors
 
 Year 2 Summer (2021):
-- Principles of Macroeconomics
+- Principles of Macroeconomics — national income, monetary policy, fiscal policy
 
 Year 3 (2021-2022):
-- Introduction to Parallel Computing
-- Computer Ethics
-- Introductory Statistics
-- Introduction to Probability
-- Numerical Analysis
-- Network Science
-- Applied Linear Algebra
+- Introduction to Parallel Computing — concurrent and parallel programming
+- Computer Ethics — ethical issues in computing and AI
+- Introductory Statistics — probability distributions, hypothesis testing, regression
+- Introduction to Probability — probability theory, random variables, Bayes theorem
+- Numerical Analysis — numerical methods, approximation, error analysis
+- Network Science — graph theory, network analysis
+- Applied Linear Algebra — linear transformations, vector spaces, applications
 
 Year 4 (2022-2023):
-- Machine Learning
-- Stochastic Modelling and Simulation
-- Introduction to Empirical Economics
-- Introduction to Psychology: Basic Processes
-- Introduction to Artificial Intelligence
-- Web Programming
-- Regression and Generalized Linear Models
-- Methods of Empirical Research
+- Machine Learning — supervised and unsupervised learning, model evaluation
+- Stochastic Modelling and Simulation — Monte Carlo methods, stochastic processes
+- Introduction to Empirical Economics — econometrics, causal inference
+- Introduction to Psychology: Basic Processes — cognitive psychology fundamentals
+- Introduction to Artificial Intelligence — search, planning, ML, neural networks
+- Web Programming — HTML, CSS, JavaScript, web development
+- Regression and Generalized Linear Models — linear regression, logistic regression, GLMs
+- Methods of Empirical Research — research design, statistical analysis
 
 ---
 
-ACADEMIC BACKGROUND NOTE:
-Rithujaa has a strong quantitative academic foundation. Her NYU coursework covered machine learning, big data, data engineering, responsible data science, database systems, probability and statistics, and data visualization. Her UBC coursework covered machine learning, artificial intelligence, data analytics, databases, statistics, probability, data structures, and programming. She received a full scholarship for her master's degree which demonstrates exceptional academic capability.
+ACADEMIC STRENGTH SUMMARY:
+Rithujaa's academic background is strongly quantitative. Her NYU coursework directly supports her professional work in machine learning, data engineering, big data, and responsible AI. Her UBC coursework built deep foundations in statistics, probability, linear algebra, machine learning, AI, and databases. Together, the two degrees provide both theoretical depth and practical application across the full data science stack.
 
 OPT STATUS:
-Rithujaa graduated in May 2026 and is currently on F-1 OPT (Optional Practical Training). This authorizes her to work in the US for up to 3 years without the employer needing to sponsor a visa. Her EAD (Employment Authorization Document) is expected in August 2026. After OPT she would need H-1B sponsorship to continue working in the US.
+Rithujaa graduated in May 2026 and is currently on F-1 OPT (Optional Practical Training). This authorizes her to work in the US for up to 3 years without the employer needing to sponsor a visa. Her EAD (Employment Authorization Document) is expected in August 2026. After OPT she would need H-1B sponsorship to continue working in the US. When asked about work authorization in interviews, she says: "I'm on F-1 OPT, fully authorized to work in the US for the next 3 years without any sponsorship needed from the employer."
