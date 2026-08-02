@@ -1,6 +1,6 @@
 # Ask About Rithujaa: RAG-Powered Personal Profile Chatbot
 
-**Live App:** https://rithujaa-my-assistant.streamlit.app
+**Live App:** https://rithujaa-ai-assistant.streamlit.app/
 
 An AI-powered chatbot that answers questions about Rithujaa Rajendrakumar using Retrieval Augmented Generation (RAG). Built to demonstrate real-world RAG implementation on a personal knowledge base.
 
